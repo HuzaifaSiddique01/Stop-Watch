@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.stopwatch {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.stopwatch #display {
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+
+.stopwatch button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.stopwatch #alt-btns {
+    background-color: green;
+}
+
+.stopwatch #reset {
+    background-color: red;
+}
+
