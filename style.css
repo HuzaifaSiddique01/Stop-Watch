@@ -9,6 +9,7 @@ body {
 }
 
 .stopwatch {
+    padding-top: 15%;
     margin: 50px auto;
     text-align: center;
 }

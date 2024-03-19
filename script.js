@@ -30,12 +30,12 @@ altBtns.onclick = function () {
     }
 }
 
-resetBtn.onclick = function(){
+resetBtn.onclick = function () {
     altBtns.innerHTML = "Start"
-    if(interval){
-      clearInterval(interval);
+    if (interval) {
+        clearInterval(interval);
     }
     interval = null;
     time = 0;
     display.innerHTML = "00:00:00";
-  }
+}
